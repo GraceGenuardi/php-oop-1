@@ -9,16 +9,16 @@
 
 <?php
 
-//1.Definizione della classe Movie
+//Definizione della classe Movie
   class Movie{
 
-     //2.Dichiarazione delle variabili d'istanza
+     //1.Dichiarazione delle variabili d'istanza
      public $titolo;
      public $genere;
      public $regista;
 
 
-    //3.Definizione del costruttore
+    //2.Definizione del costruttore
     public function __construct($titolo, $genere, $regista) {
         $this->titolo = $titolo;
         $this->genere = $genere;
@@ -26,14 +26,19 @@
       }
   
 
-    //4.Definizione metodo
+    //3.Definizione metodo
     public function getInfo() {
         return "Titolo: " . $this->titolo . ", Genere: " . $this->genere . ", Regista: " . $this->regista;
       }
   }
  
 
- //5.Istanza di due oggetti Movie  
+ //4.Istanza di due oggetti Movie  
+
+ $movie1 = new Movie("Her","science-fiction/romantic drama", "Spike Jonze");
+$movie2 = new Movie("Avatar","science-fiction", "James Cameron");
+
+
 
 
 ?>
@@ -55,8 +60,19 @@
 
    <div class="col-11 d-flex justify-content-center mt-5">
 
-      <h1 class="text-danger pt-5">PHP OOP </h1>
+      <h1 class="text-danger pt-5">PHP OOP: i tuoi film preferiti stampati da noi! </h1>
 
     </div>
+
+    <!-- 5.STAMPA OGGETTI -->
+
+   <div class="col-11 d-flex justify-content-center mt-5">
+
+      <h3 class="text-danger"></h3>
+      <h3 class="text-danger"></h3>
+
+  </div>
+
+    
 </body>
 </html>
