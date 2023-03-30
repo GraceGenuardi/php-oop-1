@@ -26,7 +26,7 @@
       }
   
 
-    //4.Definizione di un metodo
+    //4.Definizione metodo
     public function getInfo() {
         return "Titolo: " . $this->titolo . ", Genere: " . $this->genere . ", Regista: " . $this->regista;
       }
