@@ -13,7 +13,9 @@
   class Movie{
 
      //2.Dichiarazione delle variabili d'istanza
-
+     public $titolo;
+     public $genere;
+     public $regista;
     //3.Definizione del costruttore
 
     //4.Definizione di un metodo
