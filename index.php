@@ -7,6 +7,26 @@
 
 
 
+<?php
+
+//1.Definizione della classe Movie
+  class Movie{
+
+     //2.Dichiarazione delle variabili d'istanza
+
+    //3.Definizione del costruttore
+
+    //4.Definizione di un metodo
+
+  }
+ 
+
+ //5.Istanza di due oggetti Movie  
+
+?>
+
+
+
 
 <!DOCTYPE html>
 <html lang="en">
