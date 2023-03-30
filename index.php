@@ -66,10 +66,10 @@ $movie2 = new Movie("Avatar","science-fiction", "James Cameron");
 
     <!-- 5.STAMPA OGGETTI -->
 
-   <div class="col-11 d-flex justify-content-center mt-5">
+   <div class="col-11 mt-5 text-center">
 
-      <h3 class="text-danger"></h3>
-      <h3 class="text-danger"></h3>
+      <h3 class="text-warning"><?php echo $movie1->getInfo() ; ?></h3>
+      <h3 class="text-warning mt-4"><?php echo $movie2->getInfo();?></h3>
 
   </div>
 
