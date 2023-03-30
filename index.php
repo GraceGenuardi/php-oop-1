@@ -16,8 +16,14 @@
      public $titolo;
      public $genere;
      public $regista;
-    //3.Definizione del costruttore
 
+    //3.Definizione del costruttore
+    public function __construct($title, $director, $year) {
+        $this->titolo = $titolo;
+        $this->genere = $genere;
+        $this->regista = $regista;
+      }
+  
     //4.Definizione di un metodo
 
   }
